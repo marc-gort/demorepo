@@ -6,7 +6,7 @@ RUN	apt-get update && apt-get -y install inetutils-ping && rm -rf /var/lib/apt /
 #ENTRYPOINT [ "/bin/ping", "-c", "5" ]
 #	Modificable desde "CMDLINE"
 #CMD [ "8.8.8.8" ]
-CMD [ "/bin/echo", "Hello, World!" ]
+CMD [ "/bin/echo", "Hello, World!!" ]
 
 
 #EXPOSE 9999
